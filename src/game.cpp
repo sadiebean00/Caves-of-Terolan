@@ -172,7 +172,7 @@ void Game::StartAdventure()
     << player.GetName();
 
     std::cout<< "\nLet us start your journey!\n"
-             << "\nYou recieve a mysterious letter detailing treasures untold in a cave in the town of Terolan"
+             << "\nYou receive a mysterious letter detailing treasures untold in a cave in the town of Terolan"
              << "\nCuriosity got the best of you and you decide to head over to the caves.";
 
     pause(3);
