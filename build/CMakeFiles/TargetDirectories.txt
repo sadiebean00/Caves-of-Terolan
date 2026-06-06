@@ -1,0 +1,3 @@
+C:/Users/sadie/Documents/Games Dev/Caves of Terolan/build/CMakeFiles/adventure.dir
+C:/Users/sadie/Documents/Games Dev/Caves of Terolan/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/sadie/Documents/Games Dev/Caves of Terolan/build/CMakeFiles/ZERO_CHECK.dir
