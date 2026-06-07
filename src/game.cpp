@@ -442,6 +442,7 @@ void Game::CrateRoom()
         switch (choice)
         {
             case 1:
+            {
                 std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
                 std::cout << "\nYou discover a bunch of documents describing the cave's abandonment from 20 years ago.";
                 std::cout << "\nThe caves were rumoured to be haunted by an unspecified spirit.";
@@ -461,18 +462,23 @@ void Game::CrateRoom()
 
                     pause(2);
                 }
-
-                if (book_choice == 2)
+                else if (book_choice == 2)
                 {
                     std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
                     std::cout << "\nYou ignore the book that is lying on the crate. You swear it makes a weird groaning noise and swore at you as you walked away.";
 
                     pause(2);
                 }
+                else
+                {
+                    std::cout << "PLEASE PUT IN THE RIGHT NUMBER";
+                }
 
                 break;
-
+            }    
+            
             case 2:
+            {
                 std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
                 std::cout << "\nYou try the door, but it will not budge.";
                 std::cout << "\nYou loook around and discover that you need to find a key.";
@@ -523,6 +529,10 @@ void Game::CrateRoom()
 
                         break;
                 }
+                
+                break;
+            }
+
             case 3:
                 std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
                 std::cout << "\nYou decide to go back to the outside, back to ponder on why you are here in the first place.";
@@ -573,12 +583,12 @@ void Game::CanteenRoom()
                 return;
 
             case 2:
+                inventory.addItem("Key");
+
                 std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
                 std::cout << "\nHeading over to the table you notice a shiny key on the table underneath some documents and reports.";
                 std::cout << "\nWhile moving the documents to grab the key, you notice that the supposed hauntings started around 20 years ago when the caves were going to be sold to some unfriendly halflings, known for dodgy dealings.";
                 std::cout << "\nYou add the key to your bag and head back to the room with the crates through the small gap in the wall.";
-
-                inventory.addItem("Key");
                 
                 pause(3);
                 changeState(gamestate::CrateRoom);
@@ -721,6 +731,7 @@ void Game::RuneRoom()
         switch (choice)
         {
             case 1:
+            {
                 std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
                 std::cout << "\nYou approach the book stand and the room starts to spin. The lights flicker and some weird shapes, which resemble spirits appear.";
                 std::cout << "\nYou have a couple of choices left what do you do?";
@@ -773,7 +784,10 @@ void Game::RuneRoom()
                     
                     default:
                         std::cout << "Pick one last choice!";
+                        
+                    break;
                 }
+            }
 
             case 2:
                 std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
