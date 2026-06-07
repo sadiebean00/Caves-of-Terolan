@@ -37,4 +37,14 @@ class Game
         void BookEnding();
 
         void TorchEnding();
+
+        void CrateRoom();
+
+        void MermaidLagoon();
+
+        void MerpeopleConversation();
+
+        void CanteenRoom();
+
+        void RuneRoom();
 };

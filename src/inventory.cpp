@@ -32,8 +32,17 @@ void Inventory::showInventory() const
     std::cout << "           INVENTORY\n";
     std::cout << "================================\n";
 
+    if (items.empty())
+    {
+        std::cout << "Your bag is empty.\n";
+        return;
+    }
+
     for (const auto& item : items)
     {
         std::cout << "-" << item << "\n";
     }
+
+    std::cout << "\nPress ENTER...";
+    std::cin.get();
 }
