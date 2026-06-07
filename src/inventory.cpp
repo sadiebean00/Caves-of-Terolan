@@ -11,7 +11,7 @@ Inventory::Inventory()
 
 void Inventory::addItem(const std::string& item)
 {
-    if (hasItem(item))
+    if (!hasItem(item))
     {
         items.push_back(item);
     }
