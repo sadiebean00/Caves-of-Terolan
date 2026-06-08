@@ -125,12 +125,11 @@ void Game::TitleScreen()
 {
     clearScreen();
 
-    std::cout << "\n###############################################################";
-    std::cout << "\n# Welcome to the Mystical Isles of Lerolan: Caves of Teralon! #";
-    std::cout << "\n###############################################################\n";
-
     while (true)
     {
+        std::cout << "\n###############################################################";
+        std::cout << "\n# Welcome to the Mystical Isles of Lerolan: Caves of Teralon! #";
+        std::cout << "\n###############################################################\n";
         std::cout << "\n1. Play Game";
         std::cout << "\n2. Options";
         std::cout << "\n3. Quit\n";
@@ -144,14 +143,21 @@ void Game::TitleScreen()
                 return;
 
             case 2:
-                std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+                clearScreen();
+                std::cout << "\n~~~~~~~~~~~~~~~~~HOW TO PLAY~~~~~~~~~~~~~~~~~~~~~~~~~~~";
                 std::cout << "\nHow to Play\n";
                 std::cout << "\nWhen prompted, enter your name. Make sure to add it properly as you cannot change it later!";
                 std::cout << "\nChoose options using numbers.";
                 std::cout << "\nAnd read all the choices carefully!";
                 std::cout << "\nExplore the caves and uncover the mystery.\n";
+                std::cout << "\n~~~~~~~~~~~~~~~~~~~CREDITS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+                std::cout << "\nOriginally developed from my Python3 game.";
+                std::cout << "\n2026. Created by JellyBean Developments.";
+                std::cout << "\n. Programmer - Sadie";
+                std::cout << "\n. Creative Writer - Sadie";
 
-                pause(3);
+                pause(4);
+                clearScreen();
                 break;
 
             case 3:

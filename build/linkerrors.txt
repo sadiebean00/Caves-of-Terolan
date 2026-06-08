@@ -1,26 +1,8 @@
 ================================================================================
 Linker Errors
-Generated: 2026-06-06T16:59:05.385Z
-Total Errors: 7
+Generated: 2026-06-08T21:14:05.432Z
+Total Errors: 1
 ================================================================================
 
-[LNK2019] (MSVC)
-unresolved external symbol "public: void __cdecl Game::StartAdventure(void)" (?StartAdventure@Game@@QEAAXXZ) referenced in function "public: void __cdecl Game::TitleScreen(void)" (?TitleScreen@Game@@QEAAXXZ) [C:\Users\sadie\Documents\Games Dev\Caves of Terolan\build\adventure.vcxproj]
-
-[LNK2019] (MSVC)
-unresolved external symbol "public: void __cdecl Game::CaveEntrance(void)" (?CaveEntrance@Game@@QEAAXXZ) referenced in function "public: void __cdecl Game::run(void)" (?run@Game@@QEAAXXZ) [C:\Users\sadie\Documents\Games Dev\Caves of Terolan\build\adventure.vcxproj]
-
-[LNK2019] (MSVC)
-unresolved external symbol "public: void __cdecl Game::EndlessPit(void)" (?EndlessPit@Game@@QEAAXXZ) referenced in function "public: void __cdecl Game::run(void)" (?run@Game@@QEAAXXZ) [C:\Users\sadie\Documents\Games Dev\Caves of Terolan\build\adventure.vcxproj]
-
-[LNK2019] (MSVC)
-unresolved external symbol "public: void __cdecl Game::GameOver(void)" (?GameOver@Game@@QEAAXXZ) referenced in function "public: void __cdecl Game::run(void)" (?run@Game@@QEAAXXZ) [C:\Users\sadie\Documents\Games Dev\Caves of Terolan\build\adventure.vcxproj]
-
-[LNK2019] (MSVC)
-unresolved external symbol "public: void __cdecl Game::BookEnding(void)" (?BookEnding@Game@@QEAAXXZ) referenced in function "public: void __cdecl Game::run(void)" (?run@Game@@QEAAXXZ) [C:\Users\sadie\Documents\Games Dev\Caves of Terolan\build\adventure.vcxproj]
-
-[LNK2019] (MSVC)
-unresolved external symbol "public: void __cdecl Game::TorchEnding(void)" (?TorchEnding@Game@@QEAAXXZ) referenced in function "public: void __cdecl Game::run(void)" (?run@Game@@QEAAXXZ) [C:\Users\sadie\Documents\Games Dev\Caves of Terolan\build\adventure.vcxproj]
-
-[LNK1120] (MSVC)
-6 unresolved externals [C:\Users\sadie\Documents\Games Dev\Caves of Terolan\build\adventure.vcxproj]
+[LNK1168] (MSVC)
+cannot open C:\GameDev\C++ Text Based (GIT)\Caves of Teralon\Caves-of-Terolan\build\Debug\adventure.exe for writing [C:\GameDev\C++ Text Based (GIT)\Caves of Teralon\Caves-of-Terolan\build\adventure.vcxproj]
