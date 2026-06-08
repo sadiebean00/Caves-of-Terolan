@@ -206,6 +206,7 @@ void Game::CaveEntrance()
         std::cout << "\n\n1. Go through the gap by the minecart.";
         std::cout << "\n2. Go through the rusty door.";
         std::cout << "\n3. Turn around and go home.";
+        std::cout << "\n4. See bag.";
 
         int choice = getChoice();
 
@@ -236,6 +237,10 @@ void Game::CaveEntrance()
                 changeState(gamestate::GameOver);
                 return;
 
+            case 4:
+                inventory.showInventory();
+                break;
+
             default:
                 std::cout << "\nCan you not read? Pick a number between 1-3.";
         }
@@ -258,6 +263,7 @@ void Game::EndlessPit()
         std::cout << "\n\n1. Use the torch";
         std::cout << "\n2. Feel for the wall";
         std::cout << "\n3. Go back";
+        std::cout << "\n4. See bag";
 
         int choice = getChoice();
 
@@ -295,6 +301,9 @@ void Game::EndlessPit()
 
                 changeState(gamestate::CaveEntrance);
                 return;
+            case 4:
+                inventory.showInventory();
+                break;
 
             default:
                 std::cout << "\nAgain can you not read?? Pick a number between 1-3.";
@@ -435,7 +444,7 @@ void Game::CrateRoom()
         std::cout << "\n\n1. Read some of the documents on top of the crate";
         std::cout << "\n2. Try the door at the back of the room";
         std::cout << "\n3. Exit via the rusty door";
-        std::cout << "\n4. View bag";
+        std::cout << "\n4. Show bag";
 
         int choice = getChoice();
 
@@ -459,6 +468,9 @@ void Game::CrateRoom()
 
                     std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
                     std::cout << "\nYou added the Book of Runes to your bag.";
+                    std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+
+                    inventory.showInventory();
 
                     pause(2);
                 }
@@ -539,6 +551,7 @@ void Game::CrateRoom()
                 
                 pause(2);
                 changeState(gamestate::CaveEntrance);
+                break;
 
             case 4:
                 inventory.showInventory();
@@ -567,6 +580,7 @@ void Game::CanteenRoom()
         std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
         std::cout << "\n1. Eat the food on the table.";
         std::cout << "\n2. Investigate the shiny object at the end of the table.";
+        std::cout << "\n3. Show Bag";
 
         int choice = getChoice();
 
@@ -590,9 +604,16 @@ void Game::CanteenRoom()
                 std::cout << "\nWhile moving the documents to grab the key, you notice that the supposed hauntings started around 20 years ago when the caves were going to be sold to some unfriendly halflings, known for dodgy dealings.";
                 std::cout << "\nYou add the key to your bag and head back to the room with the crates through the small gap in the wall.";
                 
+                std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+                inventory.showInventory();
+
                 pause(3);
                 changeState(gamestate::CrateRoom);
                 return;
+
+            case 3:
+                inventory.showInventory();
+                break;
 
             default:
                 std::cout << "\nJust pick a number. 1 or 2.";
@@ -616,6 +637,7 @@ void Game::MermaidLagoon()
         std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
         std::cout << "\n\n1. Approach the merpeople";
         std::cout << "\n2. Go through the hallway";
+        std::cout << "\n3. Show Bag";
 
         int choice = getChoice();
 
@@ -640,6 +662,9 @@ void Game::MermaidLagoon()
 
                 changeState(gamestate::GameOver);
                 return;
+            case 3:
+                inventory.showInventory();
+                break;
 
             default:
                 std::cout << "\nAre you scared of what's going to happen? Just pick 1 or 2.";
@@ -654,7 +679,7 @@ void Game::MerpeopleConversation()
     std::cout << "\nYou must be " << player.GetName() << " it is a pleasure to meet you.";
     std::cout << "\nYou don't look like you're from around here.";
 
-    std::cout << "\nWhere are you from?";
+    std::cout << "\nWhere are you from? ";
 
     std::string location;
     std::getline(std::cin, location);
@@ -725,6 +750,7 @@ void Game::RuneRoom()
         std::cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
         std::cout << "\n\n1. Approach the book stand";
         std::cout << "\n2. Go back";
+        std::cout << "\n3. Show Bag";
 
         int choice = getChoice();
 
@@ -795,7 +821,10 @@ void Game::RuneRoom()
 
                 pause(3);
                 break;
-            
+            case 3:
+                inventory.showInventory();
+                break;
+
             default:
                 std::cout << "Just pick a number shown.";
         }

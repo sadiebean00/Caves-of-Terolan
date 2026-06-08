@@ -44,21 +44,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-0435ef203817d71a313b.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-bc526ee979d03980de63.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Debug-7409bf7288e13d1d23ac.json",
+					"jsonFile" : "target-ZERO_CHECK-Debug-3fa2625b7a7492ea9169.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "adventure::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-adventure-Debug-94d3c064a4400bf9643f.json",
+					"jsonFile" : "target-adventure-Debug-8c9cdff83f976ee5f591.json",
 					"name" : "adventure",
 					"projectIndex" : 0
 				}
@@ -107,21 +107,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-0435ef203817d71a313b.json",
+					"jsonFile" : "target-ALL_BUILD-Release-bc526ee979d03980de63.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Release-7409bf7288e13d1d23ac.json",
+					"jsonFile" : "target-ZERO_CHECK-Release-3fa2625b7a7492ea9169.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "adventure::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-adventure-Release-43d57f7bbd8e1b4c1165.json",
+					"jsonFile" : "target-adventure-Release-d147f8cbc10a77567fab.json",
 					"name" : "adventure",
 					"projectIndex" : 0
 				}
@@ -170,21 +170,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-0435ef203817d71a313b.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-bc526ee979d03980de63.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-7409bf7288e13d1d23ac.json",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-3fa2625b7a7492ea9169.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "adventure::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-adventure-MinSizeRel-ada6994b4d76ebbbde08.json",
+					"jsonFile" : "target-adventure-MinSizeRel-f66890599ed518ef86ec.json",
 					"name" : "adventure",
 					"projectIndex" : 0
 				}
@@ -233,21 +233,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-0435ef203817d71a313b.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-bc526ee979d03980de63.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-7409bf7288e13d1d23ac.json",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-3fa2625b7a7492ea9169.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "adventure::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-adventure-RelWithDebInfo-424975f690338a6ccc79.json",
+					"jsonFile" : "target-adventure-RelWithDebInfo-ed90a615e544405d46e2.json",
 					"name" : "adventure",
 					"projectIndex" : 0
 				}
@@ -257,8 +257,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/sadie/Documents/Games Dev/Caves of Terolan/build",
-		"source" : "C:/Users/sadie/Documents/Games Dev/Caves of Terolan"
+		"build" : "C:/GameDev/C++ Text Based (GIT)/Caves of Teralon/Caves-of-Terolan/build",
+		"source" : "C:/GameDev/C++ Text Based (GIT)/Caves of Teralon/Caves-of-Terolan"
 	},
 	"version" : 
 	{

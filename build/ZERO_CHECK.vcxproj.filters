@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\sadie\Documents\Games Dev\Caves of Terolan\build\CMakeFiles\500569034598211ce265d9aa05ff9a74\generate.stamp.rule">
+    <CustomBuild Include="C:\GameDev\C++ Text Based (GIT)\Caves of Teralon\Caves-of-Terolan\build\CMakeFiles\ab82fcbeff9186328b29140080a047f1\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{A85743BF-7605-3C58-A94E-CA7F34063D3A}</UniqueIdentifier>
+      <UniqueIdentifier>{1F27BC7A-17ED-3419-BECA-B53F5976D0F9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,0 +1,10 @@
+^C:\GAMEDEV\C++ TEXT BASED (GIT)\CAVES OF TERALON\CAVES-OF-TEROLAN\BUILD\CMAKEFILES\AB82FCBEFF9186328B29140080A047F1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/GameDev/C++ Text Based (GIT)/Caves of Teralon/Caves-of-Terolan" "-BC:/GameDev/C++ Text Based (GIT)/Caves of Teralon/Caves-of-Terolan/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/GameDev/C++ Text Based (GIT)/Caves of Teralon/Caves-of-Terolan/build/adventure.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

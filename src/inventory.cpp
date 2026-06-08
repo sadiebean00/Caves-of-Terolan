@@ -29,7 +29,7 @@ bool Inventory::hasItem(const std::string& item) const
 void Inventory::showInventory() const
 {
     std::cout << "\n================================\n";
-    std::cout << "           INVENTORY\n";
+    std::cout << "               BAG\n";
     std::cout << "================================\n";
 
     if (items.empty())
@@ -43,6 +43,6 @@ void Inventory::showInventory() const
         std::cout << "-" << item << "\n";
     }
 
-    std::cout << "\nPress ENTER...";
+    std::cout << "\nPress ENTER TO RETURN TO GAME...";
     std::cin.get();
 }

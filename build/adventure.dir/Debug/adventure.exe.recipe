@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\sadie\Documents\Games Dev\Caves of Terolan\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\GameDev\C++ Text Based (GIT)\Caves of Teralon\Caves-of-Terolan\build\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\sadie\Documents\Games Dev\Caves of Terolan\build\Debug\adventure.exe</FullPath>
+      <FullPath>C:\GameDev\C++ Text Based (GIT)\Caves of Teralon\Caves-of-Terolan\build\Debug\adventure.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
